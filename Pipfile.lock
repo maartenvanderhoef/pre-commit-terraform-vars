@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "0e120892e832e8b76faa321dfe89c434016f9d29056cb6f8ecd1cf2dae86895b"
+            "sha256": "57990f30ae182f8e591d9614ee3af515c28d160ceda200628b1669db30dbacd9"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -16,10 +16,41 @@
         ]
     },
     "default": {
+        "lark-parser": {
+            "hashes": [
+                "sha256:42f367612a1bbc4cf9d8c8eb1b209d8a9b397d55af75620c9e6f53e502235996"
+            ],
+            "version": "==0.10.1"
+        },
+        "python-hcl2": {
+            "hashes": [
+                "sha256:f6c178d216e9d8ef1ef9fceeb16792cbabfb69d2ae1a73e263974ab6f74489ab"
+            ],
+            "index": "pypi",
+            "version": "==3.0.1"
+        }
+    },
+    "develop": {
         "e1839a8": {
             "editable": true,
             "path": "."
+        },
+        "lark-parser": {
+            "hashes": [
+                "sha256:42f367612a1bbc4cf9d8c8eb1b209d8a9b397d55af75620c9e6f53e502235996"
+            ],
+            "version": "==0.10.1"
+        },
+        "python-hcl2": {
+            "hashes": [
+                "sha256:f6c178d216e9d8ef1ef9fceeb16792cbabfb69d2ae1a73e263974ab6f74489ab"
+            ],
+            "index": "pypi",
+            "version": "==3.0.1"
+        },
+        "terraform-unused-vars": {
+            "editable": true,
+            "path": "."
         }
-    },
-    "develop": {}
+    }
 }

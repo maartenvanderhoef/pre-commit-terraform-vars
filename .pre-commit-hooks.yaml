@@ -5,4 +5,5 @@
   files: (\.tf)$
   exclude: \.terraform\/.*$
   minimum_pre_commit_version: 1.9.0
-  entry: terraform-unused-vars --quiet
+  entry: terraform-unused-vars
+  #entry: terraform-unused-vars --quiet

@@ -7,12 +7,12 @@ setup(
     include_package_data=True,
     long_description='Find unused variables in Terraform.',
     name='terraform-unused-vars',
-    package_dir={},
+    #package_dir={},
     packages=['terraform_unused_vars'],
+    install_requires=['python-hcl2'],
     entry_points={
-        'console_scripts': [
-            'terraform-unused-vars = terraform_unused_vars.__main__:main'
-        ]
+        'console_scripts':
+        ['terraform-unused-vars = terraform_unused_vars.__main__:main']
     },
     url='https://github.com/pecigonzalo/pre-commit-terraform-vars',
     version='0.1',
